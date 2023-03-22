@@ -208,7 +208,7 @@ exec --no-startup-id steam
 # Start picom compositor
 # exec_always --no-startup-id picom --experimental-backends --config ~/.config/picom/picom.conf
 
-#gruvbox
+#gruvbox color scheme
 # class                 border  backgr. text    indicator child_border
 client.focused          #d65d0e #d65d0e #1a1826 #d65d0e   #d65d0e
 client.focused_inactive #ebdbb2 #5f676a #ffffff #ebdbb2   #ebdbb2
