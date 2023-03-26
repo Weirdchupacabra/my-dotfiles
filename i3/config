@@ -187,8 +187,8 @@ bindsym $mod+r mode "resize"
 for_window [class="^.*"] border pixel 1
 
 # Gaps
-gaps inner 13
-gaps outer 6
+gaps inner 14
+gaps outer 8
 
 # Start flameshot to make a screenshot
 bindsym Print exec flameshot gui
