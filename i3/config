@@ -189,6 +189,8 @@ for_window [class="^.*"] border pixel 1
 # Gaps
 gaps inner 14
 gaps outer 8
+gaps top 33
+smart_gaps off
 
 # Start flameshot to make a screenshot
 bindsym Print exec flameshot gui
