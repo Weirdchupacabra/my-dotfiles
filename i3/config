@@ -188,7 +188,7 @@ for_window [class="^.*"] border pixel 1
 
 # Gaps
 gaps inner 14
-gaps outer 8
+gaps outer 10
 gaps top 33
 smart_gaps off
 
