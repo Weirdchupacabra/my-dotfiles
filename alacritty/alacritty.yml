@@ -2,7 +2,7 @@
 
 #import theme
 import:
-  - ~/.config/alacritty/themes/themes/gruvbox_dark.yaml
+  - ~/.config/alacritty/themes/catppuccin-macchiato.yml
 
 
 # Import additional configuration files
@@ -115,7 +115,7 @@ import:
   #multiplier: 3
 
 # Font configuration
-#font:
+font:
   # Normal (roman) font face
   #normal:
     # Font family
@@ -124,7 +124,7 @@ import:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    #family: monospace
+    family: jetbrainsmono nerd font
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
@@ -405,7 +405,7 @@ cursor:
     #   - Off: Disable blinking by default
     #   - On: Enable blinking by default
     #   - Always: Force the cursor to always blink
-    #blinking: Off
+    # blinking: On
 
   # Vi mode cursor style
   #
