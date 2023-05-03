@@ -207,6 +207,9 @@ exec --no-startup-id discord
 # Start steam
 exec --no-startup-id steam
 
+# Change screen resolution to 4:3 with black bars for playing CS:GO
+bindsym $mod+c exec xrandr --output HDMI-A-0 --mode 1024x768 --rate 75.03 --set 'scaling mode' 'Full aspect'
+
 # Change refresh rate to 75hz
 exec_always --no-startup-id xrandr --output HDMI-A-0 --mode 1920x1080 --rate 74.97
 
